@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 16px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    height: 100vh;
+}
+
+body {
+    width: 100%;
+
+    font-size: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    font-family: "Work Sans", sans-serif;
+    background: #F8EEFF;
+}
+
+/* **************** MAIN STYLES ************** */
+
+.hide {
+    display: none;
+}
+
+header {
+    width: 100%;
+    background: url('../img/background-pattern-mobile.svg') center no-repeat;
+    background-size: cover;
+}
+
+header p {
+    margin: 114.25px 0;
+}
+
+main {
+    width: 87.2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    background: #fff;
+    border-radius: 5px;
+    margin: -86px 0 142.5px 0;
+}
+
+.container {
+    width: 87.2%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+/* ************* TITLE ********** */
+h1 {
+    margin: 24px 0 24px 24px;
+}
+
+.logo {
+    width: 7.3%;
+}
+
+/* ************** QNA ************* */
+
+.qna {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    border-bottom: 1px solid #F8EEFF;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+
+.q {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row wrap;
+    margin-bottom: 24px;
+}
+
+.q img {
+    width: 10.5%;
+}
+
+.q h5 {
+    width: 81%;
+    font-size: 1.14em;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.q h5:hover {
+    color: #AD28EB;
+}
+
+.qna p {
+    color: #8B6990;
+    line-height: 24px;
+}
+
+/* ************** DESKTOP STYLES *************** */
+@media (min-width: 1200px) {
+    header {
+        width: 100%;
+        background: url('../img/background-pattern-desktop.svg') center no-repeat;
+        background-size: cover;
+    }
+
+    header p {
+        margin: 160px 0;
+    }
+
+    main {
+        width: 41.6%;
+        margin: -138px 0 167.5px 0;
+    }
+
+    .container {
+        width: 87%;
+    }
+
+    .logo {
+        width: 7.7%;
+    }
+
+    .q img {
+        width: 5.8%;
+    }
+
+    .q h5 {
+        width: 86.3%;
+        font-size: 1.14em;
+        font-weight: 600;
+    }
+}
