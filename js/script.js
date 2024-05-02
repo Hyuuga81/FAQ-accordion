@@ -11,11 +11,11 @@ document.addEventListener('DOMContentLoaded', function () {
             if (paragraph.classList.contains('hide')) {
                 paragraph.classList.remove('hide');
                 paragraph.style.width = "100%";
-                icon.src = "../img/icon-minus.svg";
+                icon.src = "./img/icon-minus.svg";
                 icon.alt = "minus";
             } else {
                 paragraph.classList.add('hide');
-                icon.src = "../img/icon-plus.svg";
+                icon.src = "./img/icon-plus.svg";
                 icon.alt = "plus";
             }
         });
